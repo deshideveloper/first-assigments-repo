@@ -1,0 +1,297 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: "Azeret Mono", monospace;
+}
+  
+  /* Hedaer Navbar Section */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 80px 40px 150px;
+}
+ .nav-logo{
+    font-size: 200%;
+    font-weight: 800;
+ }
+nav > li{
+    list-style: none;
+}
+
+ nav > li > button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    padding: 17px 24px 17px 24px;
+ }
+ 
+   /* Hero Section */
+
+.hero {
+    background-image: url(../assets/Hero-bg.png);
+    
+    width: 1349px;
+    height: 768px;
+    
+}
+
+.hero-scetion{
+    /* Frame 4 */
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 157px;
+    bottom: 4506px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+}
+
+.hero-section-text{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+    position: static;
+    width: 852px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.hero-section-heding{
+    /* "In the near future, I hope to become a Developer." */
+    position: static;
+    width: 998px;
+    height: 136px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-section-text > p{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+    position: static;
+    width: 852px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+
+
+.hero-section-button{
+    /* Frame 2 */
+    position: static;
+    width: 208px;
+    height: 66px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    }
+    .hero-section-button , P{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+    /* main section 2 start here... */
+
+    .section2{
+        /* Frame 15 */
+        position: absolute;
+        width: 1140px;
+        height: 777px;
+        left: 148px;
+        right: 152px;
+        top: 1000px;
+        bottom: 100px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .section2-heading > h1{
+ /* Frame 5 */
+    position: static;
+    width: 852px;
+    height: 5px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+    }
+
+    .section2-heading2 > p{
+        /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. */
+        position: static;
+        width: 852px;
+        height: 82px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .youtube-vedio {
+        /* border: 1px solid gray;
+        border-radius: 5px;
+        padding: 30px; */
+
+        /* Frame 14 */
+        position: static;
+        width: 1040px;
+        height: 514px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 32px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 48px 0px;
+
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
+
+    }
+
+    
